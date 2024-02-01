@@ -12,7 +12,7 @@ const SwaggerConfig = (app) => {
       },
     },
 
-    apis: [process.cwd() + "src/modules/**/*.swagger.js"],
+    apis: [process.cwd() + "/src/modules/**/*.swagger.js"],
   });
 
   const swagger = swaggerUi.setup(swaggerDocument, {});
